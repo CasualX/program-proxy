@@ -1,0 +1,9 @@
+[package]
+name = "program-proxy"
+version = "1.0.0"
+edition = "2018"
+
+[profile.release]
+panic = "abort"
+opt-level = "s"
+debug = false
